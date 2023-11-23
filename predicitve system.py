@@ -10,7 +10,7 @@ import pickle
 
 # loading the saved model
 
-loaded_model = pickle.load(open("D:/HK!_2023-2024/newtech/diabetes/benh_tieu_duong/trained_model.sav", "rb"))
+loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
